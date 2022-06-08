@@ -1,0 +1,61 @@
+ html,body{
+    height: 100%;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+ body{
+    background: url(../image/form\ background\ walpaper1.jpg);
+    background-size: cover;
+ }
+
+ .form-login{
+    background: rgba(236,240,241,.35) ;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    padding: 15px;
+ }
+
+ .btn-primary{
+    background: #55526E;
+    border: 0;
+    transition: .3s;
+    
+ }
+
+ .btn-primary:hover{
+   background: #9F6274;
+ }
+
+ h2{
+    font-family: 'Pacifico', cursive;;
+    font-weight: bold;
+    padding-bottom: 5px;
+ }
+
+ .btn{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    
+ }
+
+ span a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .3s;
+ }
+
+ span a:hover{
+   color: #30304C;
+ 
+}
+
+ span{
+    padding: 10px 5px;
+    display: inline-block;
+}
